@@ -1,3 +1,96 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mega-menu {
+  opacity: 0;
+  visibility: hidden;
+  z-index: -900;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  transition: all 0.15s linear 0s;
+}
+
+/* #hoverable Class Styles */
+.hoverable {
+  position: static;
+}
+
+.hoverable > a:after {
+  content: "\25BC";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.hoverable:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+  z-index: 900;
+}
+
+/* #toggle Class Styles */
+
+.toggleable > label:after {
+  content: "\25BC";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.toggle-input {
+  display: none;
+}
+.toggle-input:not(checked) ~ .mega-menu {
+  opacity: 0;
+  visibility: hidden;
+  z-index: -900;
+}
+
+.toggle-input:checked ~ .mega-menu {
+  opacity: 1;
+  visibility: visible;
+  z-index: 900;
+}
+
+.toggle-input:checked + label {
+  color: white;
+  background: rgb(3, 102, 114); /*@apply bg-teal-700 */
+}
+
+.toggle-input:checked ~ label:after {
+  content: "\25B2";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dot::after {
+  color: #fff;
+  text-shadow: 10px 0 #fff, -10px 0 #fff;
+  position: absolute;
+  bottom: 0%;
+  left: 15px;
+  content: "•";
+  font-size: 1.2em;
+  line-height: 1;
+  transform: translateX(-50%);
+  pointer-events: none;
+  transition: all 0.25s ease-out 0s;
+}
+
+.bg {
+  background-image: url(../public/img/body-bg-img.jpg);
+
+  height: 100%;
+  width: 100%;
+}
