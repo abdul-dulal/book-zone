@@ -1,0 +1,91 @@
+[
+  {
+    "name": "৪১তম বিসিএস প্রিলিমিনারি ডাইজেস্ট",
+    "category": "ভর্তি নিয়োগ পরীক্ষা বই",
+    "prePrice": 600,
+    "price": 480,
+    "review": [{}],
+    "discount": "20",
+    "page": 230,
+    "authoDetails": {
+      "name": "প্রফেসর’স সম্পাদনা পরিষদ",
+      "img": ""
+    },
+
+    "publisher": "প্রফেসর’স প্রকাশন"
+  },
+  {
+    "name": "JOY ADVANCED POCKET DICTIONARY",
+    "category": "ভাষা ও অভিধান",
+    "price": 80,
+    "review": [{}],
+    "page": 130,
+    "authoDetails": {
+      "name": "এস. কে. আহমেদ",
+      "img": ""
+    },
+
+    "publisher": "জ্ঞানকোষ প্রকাশনী"
+  },
+  {
+    "name": "PRONOMINALIZATION IN BANGALI",
+    "category": "ভাষা ও অভিধান",
+    "prePrice": 800,
+    "price": 600,
+    "review": [{}],
+    "discount": "25",
+    "page": 100,
+    "authoDetails": {
+      "name": "হুমায়ুন আজাদ",
+      "img": "https://product2.yappobd.com/bookzone/wp-content/uploads/2021/10/humayun-azad-2-690x450-1611494037874_adobespark.jpg"
+    },
+    "publisher": "আগামী প্রকাশনী"
+  },
+  {
+    "name": "অগ্নিবীণা",
+    "category": "ছড়া, কবিতা ও আবৃত্তি",
+    "prePrice": 320,
+    "price": 290,
+    "page": 155,
+    "review": [{}],
+    "discount": 9.4,
+    "authoDetails": {
+      "name": "কাজী নজরুল ইসলাম",
+      "img": "https://product2.yappobd.com/bookzone/wp-content/uploads/2021/10/pp5-R9m_adobespark.jpg"
+    },
+    "publisher": "মাওলা ব্রাদার্স"
+  },
+  {
+    "name": "অন্যরকম যুদ্ধ",
+    "category": "বইমেলা ২০২১, মুক্তিযুদ্ধ",
+    "prePrice": "",
+    "price": 105,
+    "page": 80,
+    "review": [
+      {
+        "name": "Hello",
+        "review": "good"
+      }
+    ],
+    "authoDetails": {
+      "name": "তাহমিনা খলিল",
+      "img": ""
+    },
+    "publisher": "পাঞ্জেরী পাবলিকেশন্স লিঃ"
+  },
+  {
+    "name": "অপরিচিতা",
+    "category": "বইমেলা ২০২১",
+    "prePrice": "180",
+    "price": 150,
+    "page": 210,
+    "edition": "3rd 2021",
+    "review": [{}],
+    "discount": "16.7",
+    "authoDetails": {
+      "name": "রবীন্দ্রনাথ ঠাকুর",
+      "img": "https://product2.yappobd.com/bookzone/wp-content/uploads/2021/10/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%95%E0%A6%BE%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5_adobespark.jpg"
+    },
+    "publisher": "প্রথমা প্রকাশন"
+  }
+]

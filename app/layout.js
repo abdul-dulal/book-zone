@@ -1,7 +1,7 @@
 import { Open_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "./components/header/navbar";
+import Navbar from "@/components/header/navbar";
 
 const open = Open_Sans({
   weight: ["400", "600"],
@@ -22,10 +22,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={` ${myFont.className}`}>
+      <body className={` ${open.className}`}>
         <Navbar />
         <div className="bg">
-          <div className="max-w-7xl mx-auto">{children}</div>
+          <div className="">{children}</div>
         </div>
       </body>
     </html>

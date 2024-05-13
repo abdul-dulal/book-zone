@@ -1,10 +1,13 @@
+import DemoSlider from "@/components/demoSlider";
+import NewBook from "@/components/ui/NewBook";
+
 import React from "react";
-import DropDown from "../components/dropdown";
 
 const Home = () => {
   return (
-    <div>
-      <h1>home</h1>
+    <div className="max-w-7xl mx-auto py-7">
+      <DemoSlider />
+      <NewBook />
     </div>
   );
 };

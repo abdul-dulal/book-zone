@@ -1,10 +1,11 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import HeaderTop from "./headerTop";
+
 import { usePathname } from "next/navigation";
 import { FaAngleDown } from "react-icons/fa6";
-import DropDown from "../dropdown";
+import HeaderTop from "./headerTop";
+import DropDown from "./dropdown";
 
 const Navbar = () => {
   const pathname = usePathname();
